@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup Page</title>
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="courses.html">
+    <link rel="stylesheet" href="Location.html">
+    <link rel="stylesheet" href="Contact.html">
+</head>
+<body>
+    <h1>Besant Technologies</h1>
+    <h3>Html project 1 Mangala Prashad</h3>
+    <h1>Sign up</h1>
+    <form action="About.html" method="get">
+        <div>
+        <label for="Username"></label>
+        <input type="text" name="user" id="Username" placeholder="Username" required><br><br>
+        </div>
+        <div>
+            <label for="pwd"></label>
+            <input type="password" id="pwd" name="password" placeholder="password" required><br><br>
+        </div>
+        <div>
+            <label for="mobile_no"></label>
+            <input type="number" id="mobile_no" name="number" placeholder="Mobilenumber" maxlength="10" ><br><br>
+        </div>
+        <div>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email id" ><br><br>
+        </div>
+        <div>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob"  ><br><br>
+        </div>
+        <div>
+            <label for="course">Courses</label>
+            <select>
+                <option value="choose" selected disabled>choose</option>
+                <option value="dataAnalytics">Data analytics</option>
+                <option value="java">Java full stack</option>
+                <option value="sales">Salesforce</option>
+            </select><br><br>
+        </div>
+        <div>
+            <input type="checkbox" name="morning" id="morning">
+            <label for="mornning">Morning Batch</label>
+        </div>
+        <div>
+            <input type="checkbox" name="evening" id="evening">
+            <label for="evening">Evening Batch</label><br><br>
+        </div>
+        <div>
+            <input type="radio" name="course" id="daily_course">
+            <label for="daily_course">Daily Course</label>
+        </div>
+        <div>
+            <input type="radio" name="weekly" id="weekly">
+            <label for="weekly">weekly</label><br><br>
+        </div>
+        <div>
+            <label >Upload file</label>
+            <button type="">choose file</button>
+            <label> No file chosen</label><br><br>
+        </div>
+        
+        <button type="submit">Signup</a> </button>
+        
+  
+        <button type="reset">reset</button>
+    </form>
+    
+</body>
+</html>
